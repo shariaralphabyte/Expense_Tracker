@@ -3,7 +3,7 @@ name: Build and Release APK
 on:
   push:
     branches:
-      - main  # 👈 Replace with your main or release branch name
+      - master  # 👈 Replace with your main or release branch name
 
 jobs:
   build:
