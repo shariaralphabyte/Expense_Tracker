@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.expense_tracker"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
+
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -20,6 +21,7 @@ android {
     }
 
     defaultConfig {
+
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.expense_tracker"
         // You can update the following values to match your application needs.
